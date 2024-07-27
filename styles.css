@@ -10,3 +10,31 @@
 .gradea.cullen {
     color: red;
 }
+
+
+.container {
+    display: flex;
+    padding: 8px;
+    background: green;
+}
+
+.content#one {
+    width: 100px;
+}
+
+.content#two {
+    width: 400px;
+}
+
+.content#three {
+    width: 400px;
+}
+
+
+.content {
+    background: pink;
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+    flex: 1 1 auto;
+}
